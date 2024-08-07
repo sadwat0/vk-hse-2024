@@ -12,12 +12,10 @@
 
 Метрика: ROC-AUC.
 
----
+## Решение
+
+![solution](images/solution.png)
 
 Для +1% (2 место) нужно было заметить, что данные в train и test выборках пересекаются.
 
 Для 1 места нужно было использовать pytorch lifestream + сделать ансамбль catboost-ов.
-
-## Решение
-
-![solution](images/solution.png)
